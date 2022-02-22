@@ -105,16 +105,16 @@ const projectSelectionTwo = document.getElementById('projectTwo');
 const projectSelectionThree = document.getElementById('projectThree')
 const bgImage = document.getElementById('backgroundImage');
 function changeImageOne() {
-  bgImage.src = 'assests/images/excursion.png';
+  bgImage.src = './assests/images/excursion.png';
 }
 function changeToOrignal() {
-  bgImage.src = 'assests/images/Steven-Chafin-portrait.png'
+  bgImage.src = './assests/images/Steven-Chafin-portrait.png'
 }
 function changeImageTwo() {
-  bgImage.src = 'assests/images/The-Cozy-Tea-Project.png';
+  bgImage.src = './assests/images/The-Cozy-Tea-Project.png';
 }
 function changeImageThree() {
-  bgImage.src = 'assests/images/luca-bravo-XJXWbfSo2f0-unsplash.jpg';
+  bgImage.src = './assests/images/luca-bravo-XJXWbfSo2f0-unsplash.jpg';
 }
 projectSelectionOne.addEventListener("mouseover", changeImageOne)
 projectSelectionTwo.addEventListener("mouseover", changeImageTwo)
@@ -123,16 +123,3 @@ projectSelectionOne.addEventListener("mouseout", changeToOrignal)
 projectSelectionTwo.addEventListener("mouseout", changeToOrignal)
 projectSelectionThree.addEventListener("mouseout", changeToOrignal)
 
-// mouse hover change background image experince section
-const alopexSelection = document.getElementById('alopex');
-const nucampSelection = document.getElementById('nucamp');
-function changeImageAlopex() {
-  bgImage.src = 'assests/images/Alopex-badge-black.svg';
-}
-function changeImageNucamp() {
-  bgImage.src = 'assests/images/nucamp-logo-full-lockup-color-vector.svg';
-}
-// alopexSelection.addEventListener('mouseover', changeImageAlopex);
-// alopexSelection.addEventListener('mouseleave', changeToOrignal);
-// nucampSelection.addEventListener('mouseover',changeImageNucamp);
-// nucampSelection.addEventListener('mouseleave', changeToOrignal);
