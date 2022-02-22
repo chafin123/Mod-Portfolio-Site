@@ -1,5 +1,5 @@
 
-    const quips = [
+const quips = [
       'D&D Dungeon Delver',
       'Book Lover',
       'Mini Figure Painting',
@@ -11,18 +11,18 @@
       'Gaming Wizard',
       'Fallout New Vegas Fanatic'
     ];
-    var Messenger = function(el){
-        'use strict';
-        var m = this;
+var Messenger = function(el){
+    'use strict';
+     var m = this;
         
-        m.init = function(){
-          m.codeletters = "&#*+%?£@§$";
-          m.message = 0;
+    m.init = function(){
+      m.codeletters = "&#*+%?£@§$";
+      m.message = 0;
           m.current_length = 0;
-          m.fadeBuffer = false;
+      m.fadeBuffer = false;
           m.messages = [
-            'D&D Dungeon Delver',
-            'Book Lover',
+            'D&D Dungeon Delving',
+            'Book Reading',
             'Mini Figure Painting',
             'History-Loving',
             'Star Gazing',
@@ -110,3 +110,25 @@
       
       console.clear();
       var messenger = new Messenger($('#messenger'));
+const projectSelectionOne = document.getElementById('projectOne');
+const projectSelectionTwo = document.getElementById('projectTwo');
+const projectSelectionThree = document.getElementById('projectThree')
+const bgImage = document.getElementById('backgroundImage');
+function changeImageOne() {
+  bgImage.src = 'assests/images/excursion.png';
+}
+function changeToOrignal() {
+  bgImage.src = 'assests/images/Steven-Chafin-portrait.png'
+}
+function changeImageTwo() {
+  bgImage.src = 'assests/images/The-Cozy-Tea-Project.png';
+}
+function changeImageThree() {
+  bgImage.src = 'assests/images/luca-bravo-XJXWbfSo2f0-unsplash.jpg';
+}
+projectSelectionOne.addEventListener("mouseover", changeImageOne)
+projectSelectionTwo.addEventListener("mouseover", changeImageTwo)
+projectSelectionThree.addEventListener("mouseover", changeImageThree)
+projectSelectionOne.addEventListener("mouseout", changeToOrignal)
+projectSelectionTwo.addEventListener("mouseout", changeToOrignal)
+projectSelectionThree.addEventListener("mouseout", changeToOrignal)
