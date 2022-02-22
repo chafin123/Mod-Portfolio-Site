@@ -1,10 +1,10 @@
 body {
-
     font-size: 62.5%;
-    background-color: #F1F1F1;
+    background-color: #E2E2E2;
 }
 h1 {
     font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
 }
 p {
     font-family: 'PT Mono', monospace;
@@ -12,12 +12,18 @@ p {
 }
 header {
     margin-left: 5rem;
-    margin-top: 8rem;
+    padding-top: 8rem;
 }
 a {
     color:inherit;
     text-decoration: none;
     margin-left: 1.5rem;
+}
+a:focus {
+    text-decoration: none;
+}
+a:hover {
+    color: inherit
 }
 .background-image {
     overflow: hidden;
@@ -54,6 +60,27 @@ a {
 }
 .contact {
     margin-bottom: 3rem;
+}
+.alopex-Wrapper {
+    width: fit-content ;
+}
+
+.expeience-Image{
+    height: 1rem;
+    width: 1rem;
+}
+.nucamp-Wrapper {
+    width: fit-content;
+    margin-top: .5rem;
+}
+.experience span {
+    display:none;
+}
+.experience a:hover span {
+    display: inline-block;
+}
+#nucamp {
+    align-self: center;
 }
 #contactDropDown {
     width: fit-content;
