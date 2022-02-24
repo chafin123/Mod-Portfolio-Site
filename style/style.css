@@ -45,7 +45,7 @@ a:hover {
     margin-left: 4.2rem;
 }
 .project-Title {
-    width: fit-content;
+    width: 50%;
 }
 .project-Title:hover {
     color: white;
@@ -54,7 +54,7 @@ a:hover {
     box-shadow: none;
 }
 #skillsDropDown {
-    width: 15%;
+    width: 100%;
     margin-left: 1.2rem;
 }
 #aboutDropDown {
@@ -80,6 +80,10 @@ a:hover {
 }
 .experience a:hover span {
     display: inline-block;
+}
+.project-Links-Button {
+    height: 2rem;
+    width: auto;
 }
 #nucamp {
     align-self: center;

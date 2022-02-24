@@ -104,9 +104,9 @@ const projectSelectionOne = document.getElementById('projectOne');
 const projectSelectionTwo = document.getElementById('projectTwo');
 const projectSelectionThree = document.getElementById('projectThree')
 const bgImage = document.getElementById('backgroundImage');
-function changeImageOne() {
-  bgImage.src = './assests/images/excursion.png';
-}
+// function changeImageOne() {
+//   bgImage.src = './assests/images/pricing-component.png';
+// }
 function changeToOrignal() {
   bgImage.src = './assests/images/Steven-Chafin-portrait.png'
 }
@@ -116,10 +116,10 @@ function changeImageTwo() {
 function changeImageThree() {
   bgImage.src = './assests/images/luca-bravo-XJXWbfSo2f0-unsplash.jpg';
 }
-projectSelectionOne.addEventListener("mouseover", changeImageOne)
+// projectSelectionOne.addEventListener("mouseover", changeImageOne)
 projectSelectionTwo.addEventListener("mouseover", changeImageTwo)
 projectSelectionThree.addEventListener("mouseover", changeImageThree)
-projectSelectionOne.addEventListener("mouseout", changeToOrignal)
+// projectSelectionOne.addEventListener("mouseout", changeToOrignal)
 projectSelectionTwo.addEventListener("mouseout", changeToOrignal)
 projectSelectionThree.addEventListener("mouseout", changeToOrignal)
 
