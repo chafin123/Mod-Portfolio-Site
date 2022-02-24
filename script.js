@@ -101,8 +101,8 @@ var Messenger = function(el){
     var messenger = new Messenger($('#messenger'));
 // mouse hover change background image project section
 const projectSelectionOne = document.getElementById('projectOne');
-const projectSelectionTwo = document.getElementById('projectTwo');
-const projectSelectionThree = document.getElementById('projectThree')
+// const projectSelectionTwo = document.getElementById('projectTwo');
+// const projectSelectionThree = document.getElementById('projectThree')
 const bgImage = document.getElementById('backgroundImage');
 // function changeImageOne() {
 //   bgImage.src = './assests/images/pricing-component.png';
@@ -110,16 +110,16 @@ const bgImage = document.getElementById('backgroundImage');
 function changeToOrignal() {
   bgImage.src = './assests/images/Steven-Chafin-portrait.png'
 }
-function changeImageTwo() {
-  bgImage.src = './assests/images/The-Cozy-Tea-Project.png';
-}
-function changeImageThree() {
-  bgImage.src = './assests/images/luca-bravo-XJXWbfSo2f0-unsplash.jpg';
-}
+// function changeImageTwo() {
+//   bgImage.src = './assests/images/The-Cozy-Tea-Project.png';
+// }
+// function changeImageThree() {
+//   bgImage.src = './assests/images/luca-bravo-XJXWbfSo2f0-unsplash.jpg';
+// }
 // projectSelectionOne.addEventListener("mouseover", changeImageOne)
-projectSelectionTwo.addEventListener("mouseover", changeImageTwo)
-projectSelectionThree.addEventListener("mouseover", changeImageThree)
+// projectSelectionTwo.addEventListener("mouseover", changeImageTwo)
+// projectSelectionThree.addEventListener("mouseover", changeImageThree)
 // projectSelectionOne.addEventListener("mouseout", changeToOrignal)
-projectSelectionTwo.addEventListener("mouseout", changeToOrignal)
-projectSelectionThree.addEventListener("mouseout", changeToOrignal)
+// projectSelectionTwo.addEventListener("mouseout", changeToOrignal)
+// projectSelectionThree.addEventListener("mouseout", changeToOrignal)
 
