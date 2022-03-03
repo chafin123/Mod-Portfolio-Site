@@ -16,8 +16,8 @@ var Messenger = function(el){
           'History-Loving',
           'Star Gazing',
           'Fantasy-Loving',
-          'Sci-Fi Reader',
-          'Real Time Strategy Lover',
+          'Sci-Fi Reading',
+          'Real Time Strategy Loving',
           'Gaming Wizard',
           'Fallout New Vegas Fanatic'
         ];
